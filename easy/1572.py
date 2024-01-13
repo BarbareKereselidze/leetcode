@@ -1,5 +1,5 @@
 """
-1572. Matrix diagonal sum.
+1572. Matrix Diagonal Sum
 
 Description:
 Given a square matrix mat, return the sum of the matrix diagonals.
@@ -31,9 +31,24 @@ class Solution:
 
 
 # Example 1
-mat = [[1, 2, 3],
-       [4, 5, 6],
-       [7, 8, 9]]
+mat1 = [[1, 2, 3],
+        [4, 5, 6],
+        [7, 8, 9]]
 
-solution1 = Solution().diagonalSum(mat)
-print(solution1)
+solution1 = Solution().diagonalSum(mat1)
+print(solution1)  # output -> 25
+
+# Example 2
+mat2 = [[1, 1, 1, 1],
+        [1, 1, 1, 1],
+        [1, 1, 1, 1],
+        [1, 1, 1, 1]]
+
+solution2 = Solution().diagonalSum(mat2)
+print(solution2)  # output -> 8
+
+# Example 3
+mat3 = [[5]]
+
+solution3 = Solution().diagonalSum(mat3)
+print(solution3)  # output -> 5
