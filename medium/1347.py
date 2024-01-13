@@ -10,8 +10,8 @@ Approach:
 Using the Counter class from the collections module and counting the occurrences of each character in both strings, s and t.
 Then calculate the difference in counts for each character and sum these differences.
 This sum represents the minimum number of steps needed to make the two strings anagrams.
-Complexity
 
+Complexity:
 Time complexity: O(n)
 Space complexity: O(n)
 
