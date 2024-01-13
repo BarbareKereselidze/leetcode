@@ -67,15 +67,18 @@ class Solution:
 
 # Example 1
 s1 = "III"
+
 solution1 = Solution().romanToInt(s1)
-print(solution1)  # Output: 3
+print(solution1)  # output -> 3
 
 # Example 2
 s2 = "LVIII"
+
 solution2 = Solution().romanToInt(s2)
-print(solution2)  # Output: 58
+print(solution2)  # output -> 58
 
 # Example 3
 s3 = "MCMXCIV"
+
 solution3 = Solution().romanToInt(s3)
-print(solution3)  # Output: 1994
+print(solution3)  # output -> 1994
