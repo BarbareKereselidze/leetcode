@@ -33,17 +33,17 @@ class Solution:
 s1 = "bab"
 t1 = "aba"
 solution1 = Solution().minSteps(s1, t1)
-print(f"solution 1: {solution1}")
+print(solution1)  # output -> 1
 
 # Example 2
 s2 = "leetcode"
 t2 = "practice"
 solution2 = Solution().minSteps(s2, t2)
-print(f"solution 2: {solution2}")
+print(solution2)  # output -> 5
 
 # Example 3
 s3 = "anagram"
 t3 = "mangaar"
 solution3 = Solution().minSteps(s3, t3)
-print(f"solution 3: {solution3}")
+print(solution3)  # output -> 0
 
