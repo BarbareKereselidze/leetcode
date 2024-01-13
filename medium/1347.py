@@ -1,5 +1,5 @@
 """
-1347. Minimum Number of steps to make two strings anagram
+1347. Minimum Number of Steps to Make Two Strings Anagram
 
 Description:
 You are given two strings of the same length s and t. In one step you can choose any character of t and replace it with another character.
@@ -14,7 +14,6 @@ This sum represents the minimum number of steps needed to make the two strings a
 Complexity:
 Time complexity: O(n)
 Space complexity: O(n)
-
 """
 
 from collections import Counter
@@ -32,18 +31,20 @@ class Solution:
 # Example 1
 s1 = "bab"
 t1 = "aba"
+
 solution1 = Solution().minSteps(s1, t1)
 print(solution1)  # output -> 1
 
 # Example 2
 s2 = "leetcode"
 t2 = "practice"
+
 solution2 = Solution().minSteps(s2, t2)
 print(solution2)  # output -> 5
 
 # Example 3
 s3 = "anagram"
 t3 = "mangaar"
+
 solution3 = Solution().minSteps(s3, t3)
 print(solution3)  # output -> 0
-
