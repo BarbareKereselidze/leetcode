@@ -1,5 +1,5 @@
 """
-11. Container with most water.
+11. Container With Most Water
 
 Description:
 You are given an integer array height of length n. There are n vertical lines drawn such that the two endpoints of the ith line are (i, 0) and (i, height[i]).
@@ -42,11 +42,12 @@ class Solution:
 
 # Example 1
 height1 = [1, 8, 6, 2, 5, 4, 8, 3, 7]
+
 solution1 = Solution().maxArea(height1)
 print(solution1)  # output -> 49
 
 # Example 2
 height2 = [1, 1]
+
 solution2 = Solution().maxArea(height2)
 print(solution2)  # output -> 1
-
