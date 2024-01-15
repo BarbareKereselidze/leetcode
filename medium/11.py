@@ -41,13 +41,13 @@ class Solution:
 
 
 # Example 1
-height1 = [1, 8, 6, 2, 5, 4, 8, 3, 7]
+height = [1, 8, 6, 2, 5, 4, 8, 3, 7]
 
-solution1 = Solution().maxArea(height1)
+solution1 = Solution().maxArea(height)
 print(solution1)  # output -> 49
 
 # Example 2
-height2 = [1, 1]
+height = [1, 1]
 
-solution2 = Solution().maxArea(height2)
+solution2 = Solution().maxArea(height)
 print(solution2)  # output -> 1

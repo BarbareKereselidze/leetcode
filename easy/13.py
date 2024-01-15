@@ -26,10 +26,9 @@ The same principle applies to the number nine, which is written as IX. There are
 Given a roman numeral, convert it to an integer.
 
 Approach:
-The provided code is a Python implementation of a solution to convert a Roman numeral to an integer.
-The algorithm utilizes a dictionary (symbols) to map each Roman numeral character to its corresponding numeric value.
-It iterates through the input string s from left to right, accumulating the total integer value. It uses a special case for subtractive pairs
-(e.g., IV for 4, IX for 9) by subtracting twice the previous value if the current value is greater.
+* The algorithm uses dictionary (symbols) to map each Roman numeral character to its corresponding numeric value.
+* It iterates through the input string s from left to right, adding to the total integer value.
+* It uses a special case for subtractive pairs (IV for 4, IX for 9) by subtracting twice the previous value if the current value is greater.
 
 Complexity:
 Time complexity: O(n)
@@ -66,19 +65,19 @@ class Solution:
 
 
 # Example 1
-s1 = "III"
+s = "III"
 
-solution1 = Solution().romanToInt(s1)
+solution1 = Solution().romanToInt(s)
 print(solution1)  # output -> 3
 
 # Example 2
-s2 = "LVIII"
+s = "LVIII"
 
-solution2 = Solution().romanToInt(s2)
+solution2 = Solution().romanToInt(s)
 print(solution2)  # output -> 58
 
 # Example 3
-s3 = "MCMXCIV"
+s = "MCMXCIV"
 
-solution3 = Solution().romanToInt(s3)
+solution3 = Solution().romanToInt(s)
 print(solution3)  # output -> 1994

@@ -7,8 +7,8 @@ You may assume that each input would have exactly one solution, and you may not 
 You can return the answer in any order.
 
 Approach:
-The algorithm uses a brute-force approach, iterating through the array and checking for each element
-if there is a complement (target - current element) in the remaining part of the array. If found, it returns the indices of the two numbers.
+The algorithm iterates through the array, checking each element and their complement element
+if there is a complement (target - current element) in the remaining part of the array, it returns the indices of the two numbers.
 
 Complexity:
 Time complexity: O(n^2)
@@ -38,12 +38,12 @@ print(solution1)  # output -> [0, 1]
 nums = [3, 2, 4]
 target = 6
 
-solution1 = Solution().twoSum(nums, target)
-print(solution1)  # output -> [1, 2]
+solution2 = Solution().twoSum(nums, target)
+print(solution2)  # output -> [1, 2]
 
-# Example 1
+# Example 3
 nums = [3, 3]
 target = 6
 
-solution1 = Solution().twoSum(nums, target)
-print(solution1)  # output -> [0, 1]
+solution3 = Solution().twoSum(nums, target)
+print(solution3)  # output -> [0, 1]

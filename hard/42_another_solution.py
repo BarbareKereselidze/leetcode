@@ -52,13 +52,13 @@ class Solution:
 
 
 # Example 1
-height1 = [0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1]
+height = [0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1]
 
-solution1 = Solution().trap(height1)
+solution1 = Solution().trap(height)
 print(solution1)  # output -> 6
 
 # Example 2
-height2 = [4, 2, 0, 3, 2, 5]
+height = [4, 2, 0, 3, 2, 5]
 
-solution2 = Solution().trap(height2)
+solution2 = Solution().trap(height)
 print(solution2)  # output -> 9

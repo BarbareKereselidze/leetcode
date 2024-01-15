@@ -29,22 +29,22 @@ class Solution:
 
 
 # Example 1
-s1 = "bab"
-t1 = "aba"
+s = "bab"
+t = "aba"
 
-solution1 = Solution().minSteps(s1, t1)
+solution1 = Solution().minSteps(s, t)
 print(solution1)  # output -> 1
 
 # Example 2
-s2 = "leetcode"
-t2 = "practice"
+s = "leetcode"
+t = "practice"
 
-solution2 = Solution().minSteps(s2, t2)
+solution2 = Solution().minSteps(s, t)
 print(solution2)  # output -> 5
 
 # Example 3
-s3 = "anagram"
-t3 = "mangaar"
+s = "anagram"
+t = "mangaar"
 
-solution3 = Solution().minSteps(s3, t3)
+solution3 = Solution().minSteps(s, t)
 print(solution3)  # output -> 0
