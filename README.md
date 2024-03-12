@@ -1,6 +1,6 @@
 # LeetCode Problem Solutions Repository
 
-This repository contains my solutions to various LeetCode problems. I aim to maintain a daily streak of solving at least one LeetCode problem for a year.
+This repository contains my solutions to various LeetCode problems. 
 
 ## Directory Structure
 
